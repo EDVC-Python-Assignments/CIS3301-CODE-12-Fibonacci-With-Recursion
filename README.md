@@ -7,10 +7,12 @@ In this CODE assignment, you are asked to create a program that computes the Fib
 * To complete the assignment, you need to implement the code inside the function `get_fibonacci_number` and `get_fibonacci_number_sequence`
 * The `get_fibonacci_number` function receives a `position` numeric value as argument.
 * The `get_fibonacci_number` uses recursion to calculate the number that is the `position` specified by the argument.
+* The `get_fibonacci_number` returns a int() **number**.
   + For example, the Fibonacci number for position 3 is 2 and the Fibonacci number for position 5 is 5.
 * The `get_fibonacci_number_sequence` function receives a `number` as an argument.
 * The `get_fibonacci_number_sequence` relies on the function `get_fibonacci_number` to create a list with the Fibonaccie sequence numbers.
 * The `get_fibonacci_number_sequence` should return a **list** that corresponds to the Fibonacci number sequence for a given `number` of elements.
+
   + For example, the Fibonacci sequence for 7 should return a list with the following nunbers:1,1,2,3,5,8,13
 ## Fibonacci Number
 
