@@ -4,15 +4,19 @@
 
 In this CODE assignment, you are asked to create a program that computes the Fibonacci number using recursion. 
 
-* To complete the assignment, you need to implement the code inside the function `get_fibonacci_number_sequence`
+* To complete the assignment, you need to implement the code inside the function `get_fibonacci_number` and `get_fibonacci_number_sequence`
+* The `get_fibonacci_number` function receives a `position` numeric value as argument.
+* The `get_fibonacci_number` uses recursion to calculate the number that is the `position` specified by the argument.
+  + For example, the Fibonacci number for position 3 is 2 and the Fibonacci number for position 5 is 5.
 * The `get_fibonacci_number_sequence` function receives a `number` as an argument.
-* The `get_fibonacci_number_sequence` should return a **list** that corresponds to the Fibonacci number sequence for the argument `number`
-
+* The `get_fibonacci_number_sequence` relies on the function `get_fibonacci_number` to create a list with the Fibonaccie sequence numbers.
+* The `get_fibonacci_number_sequence` should return a **list** that corresponds to the Fibonacci number sequence for a given `number` of elements.
+  + For example, the Fibonacci sequence for 7 should return a list with the following nunbers:1,1,2,3,5,8,13
 ## Fibonacci Number
 
 Fibonacci number (i.e., Fn) is a sequence of mathematically calculated numbers in which each number in the sequence is computed by adding the two precedent numbers in the list. For example, the **sixth** (located in the 6th position) Fibonacci number is **5** and its sequence is below:
 
-* 0,1,1,2,3,5
+* 1,1,2,3,5,8
 
 The Fibonacci number appears in many contexts. Researchers in biology have found that the Fibonacci number sequence appears in several phenomena (e.g., flowers, branches, honeybees). In the world of computation, research has implemented optimization algorithms (e.g., search technique, heap data structure). Finally, in the context of business, many recognize a golden ratio obtained from the Fibonacci number sequence that is often used in trading and investing.
 
